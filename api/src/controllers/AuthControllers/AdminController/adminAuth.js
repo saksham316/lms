@@ -61,11 +61,7 @@ export const loginAdmin = async (req, res) => {
     console.log(
       "1",
       userExistence,
-      process.env.CRYPTO_SECRET_KEY,
-      CryptoJS.AES.encrypt(
-        JSON.stringify(userExistence),
-        process.env.CRYPTO_SECRET_KEY
-      ).toString()
+      process.env.CRYPTO_SECRET_KEY
     );
 
     let deciphered = CryptoJS.AES.encrypt(

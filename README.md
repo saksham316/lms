@@ -6,6 +6,8 @@ This repository contains a comprehensive Learning Management System (LMS) design
 
 - **Admin Panel**: Accessible at [https://lms-app-admin.netlify.app/](https://lms-app-admin.netlify.app/), this interface allows administrators to manage courses, users, and other system settings.
 - **Admin Panel (Credentials)**: email - test@gmail.com , password - admin
+
+
 - **Client Panel**: Accessible at [https://lms-app-client.netlify.app/](https://lms-app-client.netlify.app/), this interface enables students and instructors to access course materials, submit assignments, and participate 
 in discussions.
 - **Client Panel (Credentials)**: email - demo@gmail.com , password - admin

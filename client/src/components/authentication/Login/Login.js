@@ -40,12 +40,12 @@ const Login = () => {
     width: "20px",
   };
 
-  useEffect(() => {
-    captchaRef.current.reset();
-  }, [loginChange]);
+  // useEffect(() => {
+  //   captchaRef.current.reset();
+  // }, [loginChange]);
 
   const handleLogin = (data) => {
-    const tokenReCaptcha = captchaRef.current.getValue();
+    const tokenReCaptcha = "";
 
     const { email, password } = data;
     if (email && password) {
@@ -161,9 +161,9 @@ const Login = () => {
                     </span>
                   </div>
 
-                  <div className="w-100">
+                  {/* <div className="w-100">
                     <ReCAPTCHA sitekey={siteKey} ref={captchaRef} />
-                  </div>
+                  </div> */}
 
                   <div className="d-flex justify-content-end my-3">
                     <Link

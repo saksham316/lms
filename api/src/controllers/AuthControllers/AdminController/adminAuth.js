@@ -58,7 +58,15 @@ export const loginAdmin = async (req, res) => {
 
     saveIndividualLoginDetails(res, loginSession);
     // console.log("this is user id", accessToken);
-    console.log("1");
+    console.log(
+      "1",
+      userExistence,
+      process.env.CRYPTO_SECRET_KEY,
+      CryptoJS.AES.encrypt(
+        JSON.stringify(userExistence),
+        process.env.CRYPTO_SECRET_KEY
+      ).toString()
+    );
 
     let deciphered = CryptoJS.AES.encrypt(
       JSON.stringify(userExistence),

@@ -35,6 +35,7 @@ app.use(
             "https://cpqphz.csb.app",
             "http://localhost:5110",
             "http://localhost:5111",
+            "https://lms-app-admin.netlify.app",
           ],
           credentials: true,
           methods: ["GET", "PUT", "POST", "PATCH", "DELETE"],

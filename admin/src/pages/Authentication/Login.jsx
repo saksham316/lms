@@ -63,9 +63,9 @@ const Login = () => {
   // ------------------------------------------------------------------------------------------------------
 
   // --------------------------------------------------useEffects-----------------------------------------------
-  useEffect(() => {
-    captchaRef.current.reset();
-  }, [loginChange]);
+  // useEffect(() => {
+  //   captchaRef.current.reset();
+  // }, [loginChange]);
 
   useEffect(() => {
     dispatch(resetLoading(false));

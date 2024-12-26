@@ -70,7 +70,7 @@ export const loginAdmin = async (req, res) => {
     console.log(
       chalk.bgRedBright(
         "Inside catch block of login:::::",
-        error?.message || error
+        error
       )
     );
     return res.status(400).json({

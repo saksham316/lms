@@ -201,9 +201,9 @@ const Login = () => {
                           </h4> */}
                         </div>
                       )}
-                      <div className="w-100">
+                      {/* <div className="w-100">
                         <ReCAPTCHA sitekey={siteKey} ref={captchaRef} />
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <div className="d-grid">
                           {/* <button

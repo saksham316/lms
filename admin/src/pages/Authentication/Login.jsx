@@ -47,7 +47,7 @@ const Login = () => {
   const loginHandler = (data) => {
     try {
       // token from the recaptcha after verifying as human
-      const tokenReCaptcha = captchaRef.current.getValue();
+      const tokenReCaptcha = "";
       const { email, password } = data;
       const finalPayload = {
         email: email?.toLowerCase(),
@@ -63,9 +63,9 @@ const Login = () => {
   // ------------------------------------------------------------------------------------------------------
 
   // --------------------------------------------------useEffects-----------------------------------------------
-  useEffect(() => {
-    captchaRef.current.reset();
-  }, [loginChange]);
+  // useEffect(() => {
+  //   captchaRef.current.reset();
+  // }, [loginChange]);
 
   useEffect(() => {
     dispatch(resetLoading(false));
@@ -201,9 +201,9 @@ const Login = () => {
                           </h4> */}
                         </div>
                       )}
-                      <div className="w-100">
+                      {/* <div className="w-100">
                         <ReCAPTCHA sitekey={siteKey} ref={captchaRef} />
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <div className="d-grid">
                           {/* <button

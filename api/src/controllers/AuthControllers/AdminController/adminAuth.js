@@ -15,21 +15,25 @@ export const loginAdmin = async (req, res) => {
   try {
     // console.log(chalk.bgRedBright(process.env.ACCESS_TOKEN_VALIDITY));
     // console.log(os);
+    console.log("1");
     const jwt = jsonwebtoken;
     const { loginSession } = req;
     const { email, password } = req?.body;
     const { userExistence } = req?.body;
     // console.log("THis is userExistence",userExistence)
+    console.log("2");
     if (userExistence?.disabled) {
       return res.status(400).json({
         success: false,
         message: "Unauthorized Access",
       });
     }
+    console.log("3");
     const passwordConfirmation = await bcrypt.compare(
       password,
       userExistence?.password
       );
+      console.log("4");
       // console.log(chalk.bgCyan("This is incioming password", password));
       // console.log(
         //   chalk.bgGreen("This is hashed password", userExistence?.password)

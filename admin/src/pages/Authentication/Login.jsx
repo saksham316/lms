@@ -47,7 +47,7 @@ const Login = () => {
   const loginHandler = (data) => {
     try {
       // token from the recaptcha after verifying as human
-      const tokenReCaptcha = captchaRef.current.getValue();
+      const tokenReCaptcha = "";
       const { email, password } = data;
       const finalPayload = {
         email: email?.toLowerCase(),

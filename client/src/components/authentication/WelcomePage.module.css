@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Lobster&display=swap');
+
+.span {
+  color: #568dca;
+}
+
+.text1 {
+  color: #000;
+  font-family: "Cabin", sans-serif;
+}
+.text2 {
+  color: #000;
+  font-family: "Cabin", sans-serif;
+}
+.box {
+  max-width: 600px;
+}
+
+.container {
+  background: #efefbb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #d4d3dd,
+    #efefbb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #d4d3dd,
+    #efefbb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  .text1 {
+    font-size: xx-large;
+  }
+  .text2 {
+    text-align: center;
+  }
+}
+
+.home_carousel .carousel_item img {
+  width: 100% !important;
+  max-height: 500px !important;
+  object-fit: cover;
+}
+
+.cardSection {
+  width: 20rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 10px;
+}
+
+.card_body {
+  color: white;
+}
+
+.cardSection {
+  .img {
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
+.cardSection {
+  .card_heading {
+    font-size: 18px;
+  }
+  .card_para {
+    font-size: 14px;
+  }
+
+  .rating {
+    font-size: 12px;
+    color: grey;
+  }
+}
+
+.cardImage {
+  transition: transform 0.8s;
+  width: 25rem;
+  margin: 10px;
+  cursor:pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none !important;
+  padding: 20px;
+  position: relative !important;
+  background-color: whitesmoke;
+}
+
+/* .cardImage:hover {
+  transform: rotateY(360deg);
+  cursor: pointer;
+} */
+
+  .card_img_top {
+    width: 80px;
+    height: 80px;
+    margin: 5px auto;
+    border-radius: 50%;
+    border: 1px solid #e3d3d3;
+    position: absolute;
+    top: -25%;
+    left: 40%;
+  }
+
+
+.outcome_content {
+  background-color: white;
+  /* padding: 50px; */
+  display: flex;
+  height: 400px;
+  line-height: 21px;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.outcome_content >h2{
+  font-size: 2.2rem;
+    font-family: 'Lobster', sans-serif;
+}
+.outcome_content >p{
+  font-size: 22px;
+  line-height: 27px;
+  font-family: 'Edu NSW ACT Foundation', serif;
+}
+@media screen and (max-width: 600px) {
+  .outcome_content {
+    background-color: white;
+    padding: 20px;
+  }
+
+  .outcome_content{
+    height:auto
+  }
+  .cardSection {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .allcategoryCard {
+    margin-top: 40px !important;
+    cursor: pointer;
+  }
+  .outcome_content {
+    background-color: white;
+    padding: 20px;
+  }
+
+  .cardSection {
+    width: 100% !important;
+  }
+}
+
+@media (min-width:767px) and (max-width:995px) {
+  .outcome_content >p{
+    font-size: 16px;
+    line-height: 27px;
+    font-family: 'Edu NSW ACT Foundation', serif;
+  }
+}
+.new_courses {
+  background-image: url("../../assets/images/bg-category-section.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  /* margin-bottom: 65px; */
+  padding: 90px 0px 70px 0px;
+}
+
+@media (max-width:995px) {
+  .allcategoryCard{
+    display: flex !important;
+    justify-content: center;
+
+  }
+}
+
+
+.happy_students{
+  background: #f3f3f3;
+    padding: 25px;
+}
+
+.top_categories,.outcomes{
+  /* padding: 25px; */
+  background-color: #f3f3f3;
+  padding: 90px 0px 70px 0px;
+}
+
+
+
+
+.nav_link{
+  .active{
+    background-color:black;
+    color: white;
+  }
+
+  
+}
+
+
+
+.top_courses{
+  background-image: url("../../assets/images/course.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  /* margin-bottom: 65px; */
+  padding: 90px 0px 70px 0px;
+  position:relative;
+}
+
+
+
+.background_overlay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}

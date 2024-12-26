@@ -1,0 +1,111 @@
+.headingContainer{
+    
+    background: var(--card-background-color);
+    /* Shadow universal */
+    box-shadow: 2px 2px 14px -4px rgba(0, 0, 0, 0.25);
+
+}
+.headingContainer > h1{
+    color: var(--table-font-color);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cardHeading{
+    color: var(--table-font-color);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.cardSubheading{
+    color: var(--table-font-color);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.cardPercentage{
+    color: var(--green-profit, #50AD59);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.cardparagraph{
+    color: var(--not-editable-text, #A4A4A4);
+text-align: right;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.card{
+    width:"400px";
+}
+.courseContainer{
+    border-radius: 16px;
+
+width:500px;
+/* height:500px; */
+background: var(--card-background-color);
+/* Shadow universal */
+box-shadow: 2px 2px 14px -4px rgba(0, 0, 0, 0.25);
+}
+
+/* top selling courses card */
+.courseHeading{
+    color: var(--table-font-color, #494949);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width:240px;
+}
+.courseSubheading{
+    color: var(--table-font-color, #494949);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+/* width:18px; */
+}
+.courseParagraph{
+    color:  #A4A4A4;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+/* width:240px; */
+}
+.courseparaTitle{
+    color:  #A4A4A4;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width:240px;
+}
+.graphContainer{
+    height:500px;
+    width:100%;
+    background: #FFF;
+    margin:20px;
+
+/* height:500px; */
+
+/* Shadow universal */
+box-shadow: 2px 2px 14px -4px rgba(0, 0, 0, 0.25);
+}

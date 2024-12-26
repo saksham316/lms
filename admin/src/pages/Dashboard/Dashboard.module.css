@@ -1,0 +1,15 @@
+.Nestedheight{
+    height:60px
+}
+.fontSize{
+    font-size:14px
+}
+
+@media (max-width:1024px) {
+    .Nestedheight{
+        height: 120px !important;
+    }
+    .fontSize{
+        font-size: 10px;
+    }
+}

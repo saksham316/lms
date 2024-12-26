@@ -1,0 +1,29 @@
+#feedback_wrapper{
+    margin: 50px auto;
+}
+
+#feedback_wrapper .card-body{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.feedback_form h2{
+    /* text-align: center; */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.loadingAfterSubmit {
+    position: fixed;
+    top: -100px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: gray;
+    opacity: .5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+  }

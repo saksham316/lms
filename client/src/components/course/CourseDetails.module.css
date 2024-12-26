@@ -1,0 +1,115 @@
+.course_details_banner {
+  background-color: #2d2f31;
+  height: 350px;
+  color: white;
+  padding: 5rem;
+}
+
+.what_learn_section {
+  border: 1px solid #d1d7dc;
+  padding: 2.4rem 2rem;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.aftersubmitLoading {
+  position: fixed;
+  top: -100px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: gray;
+  opacity: .5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.sidebar_add {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+  position: sticky;
+  top: 0;
+}
+
+.learn_list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.course_benefites_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 0;
+}
+
+.list_items {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.Students_bought img {
+  max-height: 300px;
+  min-height: 350px;
+  object-fit: cover;
+}
+
+.video_modal {
+  .modal_content {
+    background: black !important;
+    color: white !important;
+  }
+}
+
+.btn_close {
+  filter: invert(1);
+}
+
+
+.review_star {
+  display: flex;
+}
+
+.input_radio {
+  display: none;
+}
+
+
+
+@media screen and (max-width:600px) {
+  .course_details_banner {
+    padding: 1rem;
+  }
+}
+@media (max-width:767px) {
+  .descriptionofChapter{
+    font-size: 12px !important;
+  }
+  .cousesThumbnail{
+    max-width: 179px !important;
+  
+  }
+  .course_details_banner{
+    height:500px;
+  }
+}
+@media (min-width:767px) {
+  .cousesThumbnail{
+    width:100%;
+  }
+}
+@media (max-width:865px) {
+  .courseHeadingTxt >  h1{
+    font-size: 24px !important;
+  }
+}

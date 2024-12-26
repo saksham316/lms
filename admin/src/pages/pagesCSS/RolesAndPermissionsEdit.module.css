@@ -1,0 +1,346 @@
+.title {
+    color: var(--table-font-color);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .deleteSvg{
+    position: absolute;
+    color: red;
+    top: 0;
+    right: 0;
+  }
+  .permissioncontainer{
+    padding-right: 20px;
+  }
+  .moduleName {
+    border-radius: 16px;
+    background: #fff;
+    width: 60%;
+    height: 66px;
+    flex-shrink: 0;
+    /* Shadow universal */
+    box-shadow: 2px 2px 14px -4px rgba(0, 0, 0, 0.25);
+    color: var(--not-editable-text, #a4a4a4);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 20px;
+    border: 0;
+    outline: 0;
+  }
+  .currentlyAssignedRole {
+    border-radius: 16px;
+    background: #fff;
+    width: 50%;
+    height: 66px;
+    flex-shrink: 0;
+    /* Shadow universal */
+    box-shadow: 2px 2px 14px -4px rgba(0, 0, 0, 0.25);
+    color: var(--not-editable-text, #a4a4a4);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 20px;
+    border: 0;
+    outline: 0;
+  }
+  
+  .chapterName {
+    border-radius: 16px;
+    background: #fff;
+    color: var(--not-editable-text, #a4a4a4);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 20px;
+    border: 0;
+    /* Shadow universal */
+    box-shadow: 2px 2px 14px -4px rgba(0, 0, 0, 0.25);
+    border: 0;
+    outline: 0;
+    width: 60%;
+    height: 66px;
+    flex-shrink: 0;
+  }
+  
+  .description {
+    width: 60%;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #fff;
+    border: 0;
+    outline: 0;
+    resize: none;
+    color: var(--not-editable-text, #a4a4a4);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 20px;
+    /* Shadow universal */
+    box-shadow: 2px 2px 14px -4px rgba(0, 0, 0, 0.25);
+  }
+  .currentlyAssignedPermissionsDiv {
+    width: 50%;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #fff;
+    border: 0;
+    outline: 0;
+    resize: none;
+    color: var(--not-editable-text, #a4a4a4);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0 0 20px 20px;
+    /* Shadow universal */
+    box-shadow: 2px 2px 14px -4px rgba(0, 0, 0, 0.25);
+    overflow: auto;
+  }
+  
+  .contentBox {
+    width: 200px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #fff;
+    color: var(--Secondary-text, #494949);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Shadow universal */
+    box-shadow: 2px 2px 14px -4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+  
+  .contentDiv {
+    width: 60%;
+  }
+  
+  .nextPrevButtonDiv {
+    width: 60%;
+    margin-top: 20px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .box_shadow {
+    width: 60%;
+    border: 1px solid red;
+  }
+  
+  .chapterdropdown {
+    width: 60% !important;
+    background-color: red;
+  
+  }
+  .aftersubmitLoading{
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom: 0;
+    background-color: gray;
+    opacity: .5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* quiz section */
+  .questionbox {
+    border-radius: 16px;
+    background: #fff;
+    width: 60%;
+    height: 78px;
+    flex-shrink: 0;
+    /* Shadow universal */
+    padding-left: 20px;
+    border: 0;
+    outline: 0;
+    color: var(--not-editable-text, #a4a4a4);
+    font-family: poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-shadow: 2px 2px 14px -4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .questiontext {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .questionNumber {
+    border-radius: 50%;
+    color: #fff;
+    background-color: #000;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .options {
+    display: flex;
+    width: 60%;
+    height: 67px;
+  
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 16px;
+    background: #fff;
+    border: 0;
+    outline: 0;
+    /* Shadow universal */
+    box-shadow: 2px 2px 14px -4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .optionInput {
+    color: var(--not-editable-text, #a4a4a4);
+    font-family: poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 80%;
+    border: 0;
+    width: 100%;
+    border-radius: 16px;
+    padding: 10px;
+    outline: 0;
+  }
+  
+  .submit {
+    background-color: var(--secondary-color);
+    color: #fff;
+    /* border: 1px solid white; */
+    padding: 10px;
+    border-radius: 15px;
+    outline: 0;
+    border: 0;
+    box-shadow: #5fbd69 0px 0.0625em 0.0625em, #5fbd69 0px 0.125em 0.5em, #5fbd69 0px 0px 0px 1px inset;
+    
+  }
+  .changeRole {
+    background-color: #1a60e3;
+    color: #fff;
+    border: 1px solid white;
+    padding: 10px;
+  }
+  .changePermissions {
+    background-color: #1a60e3;
+    color: #fff;
+    border: 1px solid white;
+    padding: 10px;
+  }
+  
+  .submit:hover {
+    background-color: #5fbd69;
+    box-shadow: none;
+    font-size: 15px;
+  }
+  .changeRole:hover {
+    background-color: #5fbd69;
+  }
+  
+  /* -------------------dropdown in quiz------------ */
+  .dropdown {
+    width: 60% !important;
+  }
+  
+  .chapterDropdown {
+    width: 300px;
+    height: 50px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border: 0;
+    margin-bottom: 20px;
+    font-family: Inter;
+  }
+  
+  /*  uitlity*/
+  
+  .cursor_pointer {
+    cursor: pointer;
+  }
+  
+  .courseImagePreview {
+    width: 50%;
+    height: 130px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 2px 2px 14px -4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .thumbnail {
+    width: 60%;
+  }
+  
+  /* media queries */
+  
+  @media (max-width: 1000px) {
+    /* .questionbox{
+            width:100%;
+        } */
+  
+    .options {
+      width: auto;
+    }
+  
+    .questionbox {
+      width: auto;
+    }
+  }
+  
+  /* horzontal video scrollbar */
+  .scrolling_wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrolling_wrapper {
+    overflow-x: auto;
+    width: 60%;
+  }
+  @media only screen and (max-width: 600px) {
+    .role_heading>h1{
+        font-size: 2px;
+        background-color: aqua;
+    }
+   .permission{
+    font-size: 10px;
+   }
+   
+  }

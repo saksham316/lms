@@ -1,0 +1,64 @@
+.aftersubmitLoading {
+    position: fixed;
+    top: -100px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: gray;
+    opacity: .5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+  }
+  .accordionHeader > button{
+    font-weight: 700 !important;
+  }
+  .playlistcontainer{
+    height:70vh;
+    background-color: #dee2e6;
+  }
+  .container{
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+  }
+  .videocontainer{
+    /* height:70vh !important; */
+    margin-bottom: 20px;
+    background-color: white !important;
+  }
+  @media (max-width:767px) {
+    .playlistcontainer{
+      height:auto !important;
+      background-color: white !important;
+      width: 100% !important;
+    }
+    .container{
+      flex-direction: column;
+      width: 100%;
+    
+    }
+    .videocontainer{
+      width:100% !important;
+      height:auto !important;
+    }
+  }
+  .reactPlayer{
+    width:100% !important;
+    height:auto !important;
+    margin-top: 10px;
+    
+  }
+  
+@media (max-width:595px) {
+  .reactPlayer
+    {
+    width:100%;
+  }
+  .descriptionofChapter{
+    font-size: 8px;
+  }
+  
+}

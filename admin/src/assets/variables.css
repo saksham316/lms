@@ -1,0 +1,11 @@
+:root{
+    --primary-color:#F5F7F8;
+    --secondary-color: #30475E;
+    --table-font-color:#45474B;
+    --main-background-color:#575757;
+    --table-head-background-color:#EEEDED;
+    --table-body-even-child:#666666;
+    --card-background-color:#F5F7F8;
+    --table-border-color:#45474B;
+    --blackandwhite:"000"
+}

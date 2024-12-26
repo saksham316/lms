@@ -1,0 +1,37 @@
+.modalWidth {
+    min-width: 60vw !important;
+  }
+  .modalHeight {
+    /* height: 80vh !important; */
+    overflow: auto;
+  }
+  .spiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+  .modalWidth{
+    width: 90%;
+      }
+      .modalHeight{
+    height: fit-content;
+      }
+
+      .table thead th{
+        font-size: 12px;
+      }
+      /* tbody, td, tfoot, th, thead, tr{
+     border: 0 !important;
+    } */
+    @media only screen and (max-width: 600px) {
+ 
+      
+        .modalHeight {
+          /* height: 00vh !important; */
+          overflow: auto;
+        }
+    
+      
+     
+   }

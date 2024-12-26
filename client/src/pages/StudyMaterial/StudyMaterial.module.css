@@ -1,0 +1,99 @@
+.studyMaterialContainer {
+    width: 100vw;
+    height: 100vh;
+}
+
+.studyMaterialWrapper {
+    height: 100%;
+}
+
+.studyMaterialContent {
+    height: 90%;
+}
+
+.studyMaterialCardContainer {
+    height: 90%;
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 0px grey;
+}
+
+.studyMaterialCard {
+    height: 400px;
+    border-radius: 5px;
+    background-color: rgb(186, 185, 185);
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+.studyMaterialCardContent {
+    height: 60%;
+    background-image: url("../../assets/images/pdfImg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.studyMaterialCardContentTitle {
+    height: 30%;
+    overflow: auto;
+    font-size: 150%;
+    color: black;
+    font-weight: bolder;
+    background: rgba(255, 255, 255, 0.234);
+    text-align: center;
+    overflow: auto;
+    font-family: cursive;
+
+}
+
+.studyMaterialCardContentDescription {
+    height: 70%;
+    font-size: 130%;
+    color: blue;
+    overflow: auto;
+    font-weight: bolder;
+    background: rgba(255, 255, 255, 0.455);
+    text-align: center;
+    font-family: cursive;
+
+}
+
+.studyMaterialCardBtn {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    height: 40%;
+    background: white;
+}
+
+.modalOpenBtn {
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+    height: 80%;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-weight: bolder;
+    box-shadow: 5px 5px 7px 2px black;
+    font-size: 120%;
+}
+
+.modalOpenBtn:hover {
+    box-shadow: 2px 3px 3px 0px black;
+}
+
+.modal_container {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.studyMaterialNote {
+    color: red;
+    font-size: large;
+    border: 1px solid black;
+    padding: 10px;
+}
+.studyMaterialNote span{
+    color: black;
+    font-size: x-large;
+    font-weight: bolder;
+}

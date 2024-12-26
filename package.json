@@ -1,0 +1,17 @@
+{
+  "name": "gravita-oasis-lms-mern-app",
+  "version": "1.0.0",
+  "description": "Gravita Oasis LMS MERN Project",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "api": "cd api && npm run dev",
+    "admin": "cd admin && npm start",
+    "dev": "concurrently \"npm run client\" \"npm run admin\" \"npm run api\" "
+  },
+  "author": "Pearl Organisation",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

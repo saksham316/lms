@@ -1,0 +1,4 @@
+.env
+/node_modules
+test.js
+./src/configs/GoogleCloudConsole/nifty-depth-407105-b5748dc77282.json

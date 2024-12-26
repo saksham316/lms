@@ -1,0 +1,17 @@
+.modal-content {
+    display: flex;
+    justify-content: center;
+  }
+  .modal-open .modal{
+    display: flex !important;
+    align-items: center;
+  }
+  .modal.show .modal-dialog{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+  }
+  .fade.show {
+    opacity: 1;
+    background: #958e8e9c;
+}

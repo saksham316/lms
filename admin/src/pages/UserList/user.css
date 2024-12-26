@@ -1,0 +1,28 @@
+.associatedCourse{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bolder;
+    width:250px;
+    background: #4f6376;
+    color: white;
+}
+.associatedCourseParent{
+    max-height: 200px;
+    overflow: auto;
+    background: var(--table-head-background-color) !important;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 601px) {
+    .teacher>h4{
+        text-align: center;
+        align-items: center;
+   }
+   .title{
+    display: inline-block;
+    font-size: 10px;
+   }
+  }  

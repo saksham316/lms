@@ -1,0 +1,35 @@
+.title input{
+    width: 100%;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--table-font-color) !important;
+    background: var(--card-background-color) !important;
+}   
+.makePublicButton{
+    justify-content: flex-end !important;
+    
+}
+.tr{
+    background-color: var(--table-head-background-color) !important;
+}
+.tableData{
+    background-color: transparent !important;
+    color:var(--table-font-color) !important;
+    opacity: 1 !important;
+}
+.tr:hover{
+    background-color: #0d6dfd9a  !important;
+}
+
+
+@media (max-width:767px) {
+    .makePublicButton{
+        justify-content: flex-start !important;
+        width: 85% !important;
+    }
+    .greetingCard{
+        width:85% !important
+    }
+}

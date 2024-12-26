@@ -1,0 +1,109 @@
+// Install Required Packages:
+// Install the @google-cloud / storage package, which is the official Node.js client library for Google Cloud Storage.
+
+// npm install @google-cloud / storage
+
+
+// -------------------
+
+//           Initialize Google Cloud Storage Client:
+// In your Node.js server, initialize the Google Cloud Storage client with your project credentials.
+
+          const { Storage } = require('@google-cloud/storage');
+const storage = new Storage({
+          projectId: 'your-project-id',
+          keyFilename: 'path/to/your/keyfile.json',
+});
+const bucket = storage.bucket('your-bucket-name');
+
+
+-----------------------
+
+          b.File Upload Middleware:
+Configure Multer for Google Cloud Storage:
+Use the multer middleware with multer - storage - cloud - storage to handle file uploads directly to Google Cloud Storage.
+
+npm install multer multer - storage - cloud - storage
+
+-----------------------
+
+const multer = require('multer');
+const { Storage } = require('@google-cloud/storage');
+const storage = new Storage({
+          projectId: 'your-project-id',
+          keyFilename: 'path/to/your/keyfile.json',
+});
+
+const bucket = storage.bucket('your-bucket-name');
+
+const multerStorage = require('multer-storage-cloud-storage').storageEngine({
+          bucket: 'your-bucket-name',
+          projectId: 'your-project-id',
+          keyFilename: 'path/to/your/keyfile.json',
+          acl: 'publicRead', // Set appropriate ACL based on your needs
+          metadata: (req, file, cb) => {
+                    cb(null, { contentType: file.mimetype });
+          },
+          filename: (req, file, cb) => {
+                    cb(null, Date.now() + '-' + file.originalname);
+          },
+});
+
+const upload = multer({
+          storage: multerStorage,
+          limits: { fileSize: 500 * 1024 * 1024 }, // Limit file size (500 MB in this example)
+});
+
+app.post('/upload', upload.single('video'), (req, res) => {
+          // Handle the uploaded file, if needed
+          const videoFile = req.file;
+          res.status(200).send('File uploaded successfully');
+});
+
+-----------------------
+
+          Client(React)
+-----------------------
+          a.File Upload Component:
+Handle File Upload in React:
+Use the axios library to send the file from your React component to the Node.js server.
+
+npm install axios
+
+import React, { useState } from 'react';
+import axios from 'axios';
+
+const FileUpload = () => {
+          const [file, setFile] = useState(null);
+
+          const handleFileChange = (e) => {
+                    setFile(e.target.files[0]);
+          };
+
+          const handleUpload = () => {
+                    const formData = new FormData();
+                    formData.append('video', file);
+
+                    axios.post('http://your-api-endpoint/upload', formData)
+                              .then(response => {
+                                        console.log(response.data);
+                              })
+                              .catch(error => {
+                                        console.error(error);
+                              });
+          };
+
+          return (
+                    <div>
+                              <input type="file" onChange={handleFileChange} />
+                              <button onClick={handleUpload}>Upload</button>
+                    </div>
+          );
+};
+
+export default FileUpload;
+
+
+Replace placeholders such as 'your-project-id', 'your-bucket-name', and 'http://your-api-endpoint/upload' with your actual project details and API endpoint.
+
+Remember to configure proper error handling, security measures, and ACL(Access Control List) settings based on your application's requirements and security considerations.

@@ -1,0 +1,143 @@
+/* .settingNav{
+    border: 1px solid var(--table-font-color) !important;
+    background: var(--card-background-color) !important;
+}
+
+.settingNav>ol>li>a{
+    color:var(--table-font-color)
+}
+
+.card-body{
+    background-color: var(--card-background-color) !important;
+    color:var(--table-font-color) !important;
+}   
+
+.text-color{
+    color:var(--table-font-color) !important;
+    --bs-text-opacity: 1;
+}
+
+input[type=file]::file-selector-button {
+   background-color: red;
+   color: white;
+   border:1px solid gray;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+input[type=text]{
+    color:var(--table-font-color)
+}
+
+.messagebtn:hover{
+background-color: red !important;
+color: white !important;
+}
+
+.redBtn{
+    background: red;
+    color: white;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+
+.card{
+    border-color:var(--table-font-color) !important;
+}
+
+
+.progress-bar{
+    background-color: red !important;
+}
+
+
+.card-body>p>span{
+    color:red !important;
+}
+
+
+.list-group-item{
+    color:var(--table-font-color) !important;
+    background-color: var(--card-background-color) !important;
+}
+
+input[type=password]::placeholder{
+    color:var(--table-font-color);
+}
+
+.form-control{
+    background-color: var(--card-background-color) !important;
+}
+
+.text{
+    color:var(--table-font-color)
+}
+
+span>svg{
+    color:var(--table-font-color)
+} */
+
+
+.user_profile .btn,.user_profile .btn:hover{
+    background: #30475e;
+    border: #30475e;
+    color:white;
+}
+
+
+.progress-bar {
+    background-color: #4f6376 !important;
+}
+
+.inputpicture{
+    position: absolute;
+    bottom: 0;
+    /* right:4px; */
+    left: 65%;
+    font-size: 30px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .avatar_container{
+         margin: auto;
+    }
+    .avatar{
+        
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .name{
+        font-size: 17px;
+    }
+     .role{
+        font-size: 17px;
+     }
+    .social{
+        padding: 40px;
+    }
+   }
+   
+   @media only screen and (max-width: 1200px) {
+   
+    .avatar{
+        
+        width: 150px !important;
+        height: 150px !important;
+    }
+   
+   }
+.list-group-flush>.list-group-item {
+    border-width: 0 0 var(--bs-list-group-border-width);
+    background: var(--card-background-color) !important;
+    color: var(--table-font-color) !important;
+}
+.text{
+    color:var(--table-font-color) !important;
+}
+.user_profile{
+    background-color: var(--main-background-color) !important;
+}
+.cardParent> .card{
+    border-radius: 0px !important;
+    background: var(--card-background-color) !important;
+}

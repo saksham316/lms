@@ -1,0 +1,62 @@
+.main_header{
+    background: #dee2e6;
+    position: sticky !important;
+    top: 0;
+    z-index: 9;
+  
+}
+
+.navbar_nav {
+   background-color:#dee2e6;
+   box-shadow:#ccc;
+
+}
+
+
+.logo_heading{
+    margin-bottom: 0;
+    margin-left:10px;
+    color: #568dca;
+    text-align: center;
+}
+
+
+/* .header_main a{
+    color:white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #568dca ;
+    background-color: #0dcaf0;
+} */
+
+
+/* .buttonhover:hover{
+    background:#568dca;
+    color: white;
+} */
+
+.nohover:hover {
+    background-color: red; /* Use the parent's background-color */
+    color: inherit; /* Use the parent's text color */
+    /* Add any other styles you want to reset */
+  }
+.navbar_nav{
+   display: flex;
+   gap: 20px;
+   align-items: center;
+}
+
+@media (max-width:521px) {
+    .logo_heading{
+        font-size: larger;
+    }
+    .navabar_nav{
+        padding:0
+    }
+    
+}

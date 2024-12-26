@@ -1,0 +1,22 @@
+.aftersubmitLoading{
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom: 0;
+    background-color: gray;
+    opacity: .5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .showing{
+      font-size:13px;
+      text-align: center;
+   }
+  }
+  .accordianBody{
+    background-color: var(--primary-color) !important;
+  }

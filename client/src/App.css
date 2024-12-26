@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  overflow-x: hidden !important;
+  padding-right: 0px !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+a.active {
+  background: #0dcaf0 !important;
+  color: white !important;
+  border: 1px solid #0dcaf0 !important;
+}
+
+.slick-track{
+margin-left: 0 !important;
+margin-right: 0 !important;
+}
+/* 
+* {
+ padding: 0;
+   margin: 0;
+  box-sizing: border-box;
+} */
+
+.main-container {
+  display: flex;
+}
+.nav-link{
+  color:black !important
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: white !important;
+  background-color: #000 !important;
+}
+
+
+main {
+  padding: 10px;
+}
+
+.title {
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+}
+
+/* Sidebar */
+.sidebar {
+  /* background: rgb(0, 7, 61); */
+  /* color: white; */
+  background: #adb5bdb3;
+  color: #000;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+.logo {
+  font-size: 18px;
+  line-height: 0;
+}
+.bars {
+  width: 30px;
+}
+.hide {
+  display: none;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  height: 30px;
+  padding: 10px;
+}
+
+.search input {
+  border: none;
+  margin-left: 10px;
+  border-radius: 5px;
+  /* background: rgb(238, 238, 238); */
+  /* color: white; */
+  background-color: white;
+  color: #000;
+}
+
+.routes {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.link {
+  display: flex;
+  color: #000;
+  gap: 10px;
+  padding: 5px 10px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.link:hover {
+  border-right: 4px solid white;
+  /* background: rgb(45, 51, 89); */
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.active {
+  /* border-right: 4px solid white; */
+  /* background: rgb(45, 51, 89); */
+}
+
+.link_text {
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.menu {
+  display: flex;
+  color: #000;
+
+  padding: 5px 10px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  justify-content: space-between;
+}
+
+.menu_item {
+  display: flex;
+  gap: 10px;
+}
+
+.menu_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_container .link {
+  padding-left: 20px;
+  border-bottom: #fff 0.5px solid;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute !important;
+  left: -12px !important;
+}
+
+.modal-backdrop.show {
+  opacity: 0 !important;
+  display: none !important;
+}
+
+.top_categories .nav-pills .nav-link.active,
+.top_categories .nav-pills .show > .nav-link {
+  color: white !important;
+  background-color: black !important;
+}
+
+.top_categories .nav-link {
+  color: #000 !important;
+}
+
+.top_categories .nav-link:hover {
+  color: white !important;
+  background-color: black !important;
+}
+
+.notify {
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+
+@media screen and (max-width:600px){
+  .notify {
+    position: absolute;
+    top: 0;
+    left: 50%;
+  }
+}
+
+
+
+.accordion-button:focus {
+  z-index: 3;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+
+
+
+.form-control:focus {
+  border-color: none !important;
+  outline: 0;
+  box-shadow:none !important;
+}
